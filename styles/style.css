@@ -213,3 +213,12 @@ body.front.toolbar-drawer.navbar-is-fixed-top {
     display: block;
   }
 }
+.container .jumbotron,
+.container-fluid .jumbotron {
+  padding: 0;
+  background: none;
+}
+#page-About img {
+  float: left;
+  padding-right: 1em;
+}
