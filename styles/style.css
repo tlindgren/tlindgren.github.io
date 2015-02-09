@@ -1,0 +1,215 @@
+a,
+a:link {
+  cursor: pointer;
+}
+body {
+  padding-top: 60px;
+}
+table tfoot th,
+table tbody th {
+  border-top: 1px solid #ddd;
+}
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+body {
+  font-size: 1.7em;
+}
+a {
+  color: #e25401;
+  text-decoration: none;
+}
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: none;
+}
+@media (min-width: 992px) {
+  body.navbar-is-fixed-top {
+    padding-top: 120px !important;
+  }
+  body.toolbar-drawer.navbar-is-fixed-top {
+    padding-top: 160px !important;
+  }
+}
+/* @group Container */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 970px;
+  }
+}
+/* @end */
+#block-search-form {
+  display: table;
+  padding-top: 3px;
+}
+.logo img {
+  height: auto;
+  width: 30px;
+}
+.navbar>.container .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #ddd;
+  font-size: 120%;
+}
+.navbar-inverse {
+  background-color: #363f48;
+}
+.navbar-btn {
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+/* @group TOC */
+#block-block-16 {
+  margin-top: 3em;
+}
+#block-block-16 .nav>li.active>a {
+  font-weight: bold;
+  color: #fff;
+  background: #363f48;
+}
+.region-content h2:before {
+  display: block;
+  content: " ";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
+}
+.toolbar.toolbar-drawer h2:before {
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 130px;
+  visibility: hidden;
+}
+/* @end */
+/* @group Home */
+body.front.navbar-is-fixed-top {
+  padding-top: 120px !important;
+}
+body.front.toolbar-drawer.navbar-is-fixed-top {
+  padding-top: 220px !important;
+}
+.front #block-search-form {
+  margin-top: 1.3em;
+}
+.front #navbar .nav {
+  margin-top: 1em;
+}
+.front .page-header {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+#aboutme-blurb {
+  font-size: 1.6em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+@media (max-width: 768px) {
+  #aboutme-blurb {
+    font-size: 1.4em;
+    padding-top: 0em;
+    padding-bottom: 1em;
+  }
+  body.front.navbar-is-fixed-top {
+    padding-top: 80px !important;
+  }
+}
+.readmore {
+  font-size: 75%;
+}
+#whatido .col-md-4 {
+  background: #6e8196;
+  color: #fff;
+  height: auto;
+  border: 5px solid #fff;
+  padding: 1em;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+#homepage-projects .col-md-4 {
+  background: #ddd;
+  height: auto;
+  border: 5px solid #fff;
+  padding: 0.5em 1em 1em 1em;
+  margin-bottom: 1em;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+.front .field-name-body img {
+  padding-bottom: 1em;
+}
+.front .toolbar.toolbar-drawer h2:before,
+.front h2:before {
+  display: block;
+  content: " ";
+  margin-top: 0;
+  height: 0;
+  visibility: hidden;
+}
+.front h3 {
+  clear: both;
+}
+@media (min-width: 1000px) {
+  .front .logo {
+    margin-bottom: 0;
+  }
+  .front .logo img {
+    height: auto;
+    width: 65px;
+  }
+  .front .navbar>.container .navbar-brand {
+    color: #fff;
+    letter-spacing: 1px;
+    padding-left: 2px;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    padding: 0.8em 0.5em 0.5em 0.5em;
+  }
+}
+/* @end */
+.pull-left {
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+}
+.pull-right {
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+}
+@media (max-width: 500px) {
+  .main-container .pull-left,
+  .main-container .pull-right {
+    float: none !important;
+    margin: auto;
+    display: block;
+  }
+}
