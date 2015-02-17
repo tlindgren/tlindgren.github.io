@@ -2,10 +2,9 @@ a,
 a:link {
   cursor: pointer;
 }
-body {
-  padding-top: 60px;
-}
+body tfoot th,
 table tfoot th,
+body tbody th,
 table tbody th {
   border-top: 1px solid #ddd;
 }
@@ -24,6 +23,54 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   border-left: none;
+}
+.navbar-default {
+  background: #fff;
+}
+.navbar-default .navbar-brand {
+  color: #363f48;
+  font-size: 0.75em;
+}
+#logo {
+  float: left;
+  height: 50px;
+  padding: 8px 9px;
+}
+.homepage-header {
+  background: #363f48;
+  color: #fff;
+  padding: 5em 0;
+}
+.homepage-header h3 {
+  font-size: 2.5em;
+}
+.homepage-header p {
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+.page-title {
+  background: #363f48;
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+.page-title h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: normal;
+}
+.content {
+  margin-top: 2em;
+}
+.readable-width {
+  width: 100%;
+  max-width: 768px;
+  font-size: 1.2em;
+  margin: auto;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
 }
 @media (min-width: 992px) {
   body.navbar-is-fixed-top {

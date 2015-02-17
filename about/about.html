@@ -42,7 +42,7 @@
 </head>
 <body>
 	<!-- Menu -->
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,42 +50,71 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">Tim Lindgren</a>
+				<img src="/styles/logo.png" alt="Logo" id="logo"/><a class="navbar-brand" href="/">Tim Lindgren</a>
 			</div>
 			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					
-						<li
-							typeof="sioc:Page"
-							about="/pages/about"
-							class="active"
-						>
-							<a href="/pages/about" property="dc:title">
-								About
-							</a>
-						</li>
-					
-						<li
-							typeof="sioc:Page"
-							about="/pages/portfolio"
-							class=""
-						>
-							<a href="/pages/portfolio" property="dc:title">
-								Portfolio
-							</a>
-						</li>
-					
+				<ul class="nav navbar-nav navbar-right">
+    				<li class="dropdown">
+    				<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Work"> About <b class="caret"></b></a>
+        				<ul class="dropdown-menu">
+        					
+        						<li
+        							typeof="sioc:Page"
+        							about="/about/about"
+        							class="active"
+        						>
+        							<a href="/about/about" property="dc:title">
+        								About
+        							</a>
+        						</li>
+        					
+        						<li
+        							typeof="sioc:Page"
+        							about="/about/resume"
+        							class=""
+        						>
+        							<a href="/about/resume" property="dc:title">
+        								Resume
+        							</a>
+        						</li>
+        					
+        						<li
+        							typeof="sioc:Page"
+        							about="/about/publications"
+        							class=""
+        						>
+        							<a href="/about/publications" property="dc:title">
+        								Publications
+        							</a>
+        						</li>
+        					
+        						<li
+        							typeof="sioc:Page"
+        							about="/about/presentations"
+        							class=""
+        						>
+        							<a href="/about/presentations" property="dc:title">
+        								Presentations
+        							</a>
+        						</li>
+        					
+        				</ul>
+    				</li>
 				</ul>
 			</div><!--/.navbar-collapse -->
 		</div>
 	</div>
 
 	<!-- Content -->
-	<div class="container">
 		<!-- Content -->
 		<section id="content" class="content">
-			<article id="page-About" class="page">
-	<h1>About</h1>
+			<div class="page-title">
+    <div class="container">
+    <h2>About</h2>
+    </div><!-- /container -->
+</div>
+<div class="container readable-width">
+<article id="page-about-about" class="page">
 	<div class="page-content"><p><img src="../images/about-photo.jpg" alt=""></p>
 <p>I am an educational technology and web development professional living
 in Boston.</p>
@@ -123,16 +152,19 @@ New Essays in Ecocritical Theory and Practice (2006), and Locations of
 Composition (2006).</p>
 </div>
 </article>
+test	
+</div><!-- /container -->
 		</section>
 
 		<!-- Footer -->
 		<footer>
-			<p class="pull-left">&copy; Company 2015</p>
+			<div class="container">
 			<p class="pull-right">
-				This website was last updated at 2015-02-09T05:56:01.295Z
+			
 			</p>
+		</div><!-- /container -->
 		</footer>
-	</div><!-- /container -->
+
 
 	<!-- Scripts -->
 	<script >(function(){
