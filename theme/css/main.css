@@ -41,8 +41,8 @@ background-image: none;
 }
 
 .navbar-default  .nav>li>a.social {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
 }
 
 .navbar-default  .nav>li>a:hover, .nav>li>a.social:hover{
