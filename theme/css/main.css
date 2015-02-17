@@ -32,9 +32,21 @@ background: #fff;
 background-image: none;
 }
 
-
 .navbar-default .navbar-brand{
     color: #363f48;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #e25401;
+}
+
+.navbar-default  .nav>li>a.social {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-default  .nav>li>a:hover, .nav>li>a.social:hover{
+     color: #e25401;
 }
  
  a {
@@ -89,6 +101,8 @@ background-image: none;
     color:#fff;
     font-size:3em;
     font-weight:normal;
+    margin-top: .2em;
+    margin-left: .2em;
  }
  
  .readable-width {
