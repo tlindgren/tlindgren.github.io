@@ -1,91 +1,86 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Resume | Tim Lindgren</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="theme/css/bootstrap.min.css">
-         <link rel="stylesheet" href="theme/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="theme/bootstrap-social/bootstrap-social.css">
-        <link href="theme/bootstrap-social/assets/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="theme/css/main.css">
 
-        <script src="theme/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        
+        <title> Resume | Tim Lindgren </title>
+        
+        <link rel="shortcut icon" type="image/ico" href="assets/vendor/html5-boilerplate/dist/favicon.ico" />
+        
+        <link href="assets/vendor/html5-boilerplate/dist/css/normalize.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/vendor/html5-boilerplate/dist/css/main.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/css/styles.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="modernizr.min.js"></script>
+        
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img src="theme/logo.png" alt="Logo" id="logo"/><h1><a class="navbar-brand" href="/">Tim Lindgren</a></h1>
-        </div>
-       <div class="collapse navbar-collapse" id="navbar">
-       <ul class="nav navbar-nav navbar-right">
-                       <li>
-                           <a href="about.html" title="About">About</a>
-                       </li>
-       
-                       <li class="dropdown">
-                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Portfolio">Portfolio <b class="caret"></b></a>
-                           <ul class="dropdown-menu">
-                               <li>
-                                   <a href="resume.html">Resume</a>
-                               </li>
-                               <li>
-                                   <a href="projects.html">Projects</a>
-                               </li>
-                               <li>
-                                   <a href="presentations.html">Presentations</a>
-                               </li>
-                               <li>
-                                   <a href="writings.html">Writings</a>
-                               </li>
-                             </ul>
-                             <li><a href="https://twitter.com/timlindgren" class="social" title="Twitter">
-                                <i class="fa fa-twitter"></i><span class="sr-only">Twitter</span>
-                              </a>
-                              </li>
-                              <li><a href="http://www.linkedin.com/in/timlindgren/" class="social" title="Linked In">
-                                 <i class="fa fa-linkedin"></i><span class="sr-only">Linked In</span>
-                               </a>
-                               </li>
-                               <li><a href="https://vimeo.com/timlindgren" class="social" title="Vimeo">
-                                  <i class="fa fa-vimeo-square"></i><span class="sr-only">Vimeo</span>
-                                </a>
-                                </li>   
-         </ul> 
-                  </div>
-      </div>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+         <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="logo">
+      <img src="assets/img/logo.png" alt="Logo Image">
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+    <a href="index.html" class="site-title"><h1>Tim Lindgren</h1></a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link"><a href="about.html">About</a></li>
+       <li class="nav-link more"><a href="javascript:void(0)">Portfolio</a>
+          <ul class="submenu">
+            <li>
+                <a href="resume.html">Resume</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a href="presentations.html">Presentations</a>
+            </li>
+            <li>
+                <a href="writings.html">Writings</a>
+            </li>
+            
+          </ul>
+        </li>
+        <li class="nav-link"><a href="https://twitter.com/timlindgren" class="social" title="Twitter">
+           <i class="fa fa-twitter"></i><span class="sr-only">Twitter</span>
+         </a>
+         </li>
+         <li class="nav-link"><a href="http://www.linkedin.com/in/timlindgren/" class="social" title="Linked In">
+            <i class="fa fa-linkedin"></i><span class="sr-only">Linked In</span>
+          </a>
+          </li>
+          <li class="nav-link"><a href="https://vimeo.com/timlindgren" class="social" title="Vimeo">
+             <i class="fa fa-vimeo-square"></i><span class="sr-only">Vimeo</span>
+           </a>
+           </li>
+        
+      </ul>
     </nav>
+  </div>
+</header>
+
+        
+        <article>
+            <header>
+             <div class="page-title">
+                <h2>Resume</h2>
+            </div>
+            </header>
+            <div class="page-content">
+                 
 
    <!-- CONTENT ======================== -->
 
-  <div class="page-title">
-      <div class="container">
-      <h2> Resume </h2>
-      </div><!-- /container -->
-  </div>
-  
-  <div class="container readable-width">
-      <article class="page">
-      	<div class="page-content">
-      	
-          <h2 id="summary">Summary</h2>
+          <h3 id="summary">Summary</h3>
           
           <ul>
           <li>10+ years in educational technology and web development</li>
@@ -97,19 +92,19 @@
           
           <hr />
           
-          <h2 id="experience">Experience</h2>
+          <h3 id="experience">Experience</h3>
           
-          <h3 id="seniorinstructionaldesigner">Senior Instructional Designer</h3>
+          <h4 id="seniorinstructionaldesigner">Senior Instructional Designer</h4>
           
           <p>Current Position: Instructional Design and eTeaching Services, Boston College (2014-present)</p>
           
-          <h3 id="freelancewebdeveloperanduserexperienceconsultant">Freelance web developer and user experience consultant</h3>
+          <h4 id="freelancewebdeveloperanduserexperienceconsultant">Freelance web developer and user experience consultant</h4>
           
           <p>January 2005 – Present</p>
           
           <p>I&#8217;ve been developing websites and provide consulting for a variety of clients, including non-profits, artists, schools, and churches since 2005.</p>
           
-          <h3 id="instructionaldesigner">Instructional Designer</h3>
+          <h4 id="instructionaldesigner">Instructional Designer</h4>
           
           <p>Instructional Design and eTeaching Services, Boston College (2006&#8211;2013)</p>
           
@@ -121,7 +116,7 @@
           <li>Publish and present on topics related to instructional technology</li>
           </ul>
           
-          <h3 id="graduatewebassistant">Graduate Web Assistant</h3>
+          <h4 id="graduatewebassistant">Graduate Web Assistant</h4>
           
           <p>Instructional Design and eTeaching Services, Boston College (2002&#8211;2005)</p>
           
@@ -131,7 +126,7 @@
           <li>Offer workshops and consult individually with faculty to help them integrate technologies like WebCT into their teaching</li>
           </ul>
           
-          <h3 id="programassistant">Program Assistant</h3>
+          <h4 id="programassistant">Program Assistant</h4>
           
           <p>First-Year Writing Program, Boston College (2001&#8211;2002, 2003&#8211;2005)</p>
           
@@ -141,7 +136,7 @@
           <li>Conducted workshops on specific teaching-related topics, such as class publishing and online portfolio design</li>
           </ul>
           
-          <h3 id="programcoordinator">Program Coordinator</h3>
+          <h4 id="programcoordinator">Program Coordinator</h4>
           
           <p>City Ambassadors Volunteer Program (Spring 2002)</p>
           
@@ -149,7 +144,7 @@
           <li>Designed and taught an environmental service-learning program for Chinese high school students in Boston</li>
           </ul>
           
-          <h3 id="museumdesignintern">Museum Design Intern</h3>
+          <h4 id="museumdesignintern">Museum Design Intern</h4>
           
           <p>Dreams of Freedom immigration museum, Boston (2000)</p>
           
@@ -157,7 +152,7 @@
           <li>Funded by Woodrow Wilson Practicum Grant to assist with research, writing, and museum education projects</li>
           </ul>
           
-          <h3 id="refugeeresettlementjobdeveloper">Refugee Resettlement Job Developer</h3>
+          <h4 id="refugeeresettlementjobdeveloper">Refugee Resettlement Job Developer</h4>
           
           <p>Interchurch Refugee and Immigration Ministries, Chicago, IL (1997&#8211;98)</p>
           
@@ -167,43 +162,43 @@
           
           <hr />
           
-          <h2 id="education">Education</h2>
+          <h3 id="education">Education</h3>
           
-          <h3 id="bostoncollege">Boston College</h3>
+          <h4 id="bostoncollege">Boston College</h4>
           
           <p>PhD, English (Rhetoric and Composition), 2009</p>
           
-          <h3 id="wheatoncollegewheatonil">Wheaton College, Wheaton, IL</h3>
+          <h4 id="wheatoncollegewheatonil">Wheaton College, Wheaton, IL</h4>
           
           <p>B.A. English, 1996 </p>
           
-          <h3 id="other">Other</h3>
+          <h4 id="other">Other</h4>
           
           <p>CIWIC: Computers in Writing-Intensive Classrooms, Michigan Technological University, June 1&#8211;14, 2005. New Media Workshop </p>
           
           <hr />
           
-          <h2 id="teaching">Teaching</h2>
+          <h3 id="teaching">Teaching</h3>
           
-          <h3 id="first-yearwritingprogrambostoncollege">First-Year Writing Program, Boston College</h3>
+          <h4 id="first-yearwritingprogrambostoncollege">First-Year Writing Program, Boston College</h4>
           
           <ul>
           <li>First-Year Writing Seminar: Spring 2005, Fall 2003, Fall 2002, Fall 2000</li>
           </ul>
           
-          <h3 id="englishdepartmentbostoncollege">English Department, Boston College</h3>
+          <h4 id="englishdepartmentbostoncollege">English Department, Boston College</h4>
           
           <ul>
           <li>American Literary History 1: Fall 2001 and Spring 2001</li>
           </ul>
           
-          <h3 id="theolincenterforinternationalstudiessummer2000boston">The Olin Center for International Studies (Summer 2000), Boston</h3>
+          <h4 id="theolincenterforinternationalstudiessummer2000boston">The Olin Center for International Studies (Summer 2000), Boston</h4>
           
           <ul>
           <li>Taught TOEFL preparation courses</li>
           </ul>
           
-          <h3 id="embassycessummer2001boston">Embassy CES (Summer 2001), Boston</h3>
+          <h4 id="embassycessummer2001boston">Embassy CES (Summer 2001), Boston</h4>
           
           <ul>
           <li>Taught courses on pronunciation and American idioms, GMAT preparation courses</li>
@@ -214,26 +209,27 @@
       </article>
   </div>
    <!-- CONTENT END ======================== -->
-   
-  <footer>
+ 
+ 
+            </div>
+        <footer>
 
-  </footer>
-   
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="theme/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="theme/js/vendor/bootstrap.min.js"></script>
-
-        <script src="theme/js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+</footer>
+        </article>
+        
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-425810-3','auto');ga('send','pageview');
-        </script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-425810-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="assets/vendor/html5-boilerplate/dist/js/main.min.js"></script>
+        <script src="assets/scripts/plugins.min.js"></script>
     </body>
 </html>
