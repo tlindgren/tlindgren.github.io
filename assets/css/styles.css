@@ -265,17 +265,19 @@ article {
     font-family: "PT Sans", sans-serif;
     font-weight: 300;
     letter-spacing: 1;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-size: 1.3em; }
     article p span {
       font-family: "PT Sans", sans-serif;
       font-size: 0.8em;
       font-weight: 600;
       text-transform: uppercase; }
+  article ul {
+    margin-bottom: 1.5em; }
   article li {
     font-size: 1.3em; }
   article hr {
-    width: 3em; }
+    width: 6em; }
   article a.read-more {
     display: inline-block;
     font-family: "PT Sans", sans-serif;
@@ -707,18 +709,24 @@ body {
     .page-title {
       padding: 1em 1em; } }
 
-.page-title h2 {
-  color: #fff;
-  font-size: 3em;
-  font-weight: normal;
-  margin-left: .2em;
-  max-width: 750px;
+.page-title-wrapper {
+  max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
-  .page-title h2::after {
+  margin-right: auto;
+  padding-left: 1em; }
+  .page-title-wrapper::after {
     clear: both;
     content: "";
     display: table; }
+  .page-title-wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.page-title h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: normal; }
 
 .img-left {
   float: left;
