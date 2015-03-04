@@ -1,0 +1,25 @@
+{
+  "convertHtml": {
+    "relativePaths": true
+  },
+  "debug": false,
+  "domain": null,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": [
+    "assets"
+  ],
+  "preprocessorScriptOutput": "assets/scripts",
+  "preprocessorStyleOutput": "assets/css",
+  "projectDescription": "",
+  "projectName": "Tim Lindgren",
+  "publishedId": null,
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "default",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": false
+}
