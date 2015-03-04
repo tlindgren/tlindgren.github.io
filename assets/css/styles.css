@@ -364,12 +364,16 @@ header.navigation {
     color: #333;
     float: left; }
   header.navigation .site-title H1 {
-    font-size: 1.8em;
-    padding-top: .5em;
+    font-size: 1.4em;
+    padding-top: .7em;
     text-transform: uppercase;
     font-weight: normal;
     padding-bottom: 0;
     margin-bottom: 0; }
+    @media screen and (min-width: 40em) {
+      header.navigation .site-title H1 {
+        font-size: 1.8em;
+        padding-top: .5em; } }
   header.navigation ul li.nav-link {
     background: #e6e6e6;
     display: block;
