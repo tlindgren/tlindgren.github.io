@@ -181,7 +181,8 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/!(svg-src)/**',
                         'css/fonts/*',
-                        'CNAME'
+                        'CNAME',
+                        'README.md'
                     ]
                 }]
             }
