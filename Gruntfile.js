@@ -177,11 +177,11 @@ module.exports = function (grunt) {
                     cwd: '<%= yeoman.src %>',
                     dest: '<%= yeoman.build %>',
                     src: [
-                        '*.html',
                         '*.{ico,png,txt}',
                         '.htaccess',
                         'images/!(svg-src)/**',
-                        'css/fonts/*'
+                        'css/fonts/*',
+                        'CNAME'
                     ]
                 }]
             }
@@ -223,7 +223,7 @@ module.exports = function (grunt) {
         }    
     });
 
-    grunt.registerTask('html', ['assemble', 'htmlmin']);
+    grunt.registerTask('html', ['assemble', 'htmlmin','copy']);
     grunt.registerTask('js', ['jshint', 'concat', 'uglify']);
     grunt.registerTask('style', ['sass', 'autoprefixer', 'cssmin']);
     grunt.registerTask('serve', ['connect', 'watch']);
