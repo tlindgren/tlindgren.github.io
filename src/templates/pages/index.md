@@ -23,7 +23,7 @@ layout: src/templates/layouts/index.hbs
      	<div class="recent-box">
      	  <h3>MediaKron</h3>
      		<a href="http://mediakron.org"><img src="img/mediakron.jpg" alt="MediaKron Logo" class="img-responsive" /></a>
-     		<p>I'm the product manager and front-end developer for MediaKron, an online toolkit for curation and storytelling created at Boston College.<br> <a href="http://mediakron.org">http://mediakron.org</a><br><a href="https://twitter.com/mediakron">@mediakron</a></p> 
+     		<p>I'm the product manager and front-end developer for MediaKron, an online toolkit for curation and storytelling created at Boston College.<br> <a href="http://mediakron.org">http://mediakron.org</a><br><a href="https://twitter.com/mediakron">@mediakron</a><br><a href="https://mediakron.bc.edu/demo">Demo</a><br><a href="http://mediakron.org/portfolio-posts/capellemanuscript/">Example Project</a></p> 
      		 </p>
      		 <p><strong>Version 3.2 (June 4, 2015)</strong> features a new content type called "Stories" that makes it easier to create long-form narratives that weave together text with other MediaKron content. <a href="https://mediakron.bc.edu/help/32-release"><br>Release Notes</a></p>
      	</div>
