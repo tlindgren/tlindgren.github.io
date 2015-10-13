@@ -439,6 +439,7 @@ header.navigation ul.navigation-menu {
   padding: 0;
   width: 100%;
   z-index: 9999;
+  position: relative;
 }
 header.navigation ul.navigation-menu.show {
   display: block;
