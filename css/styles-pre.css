@@ -439,6 +439,7 @@ header.navigation ul.navigation-menu {
   padding: 0;
   width: 100%;
   z-index: 9999;
+  position: relative;
 }
 header.navigation ul.navigation-menu.show {
   display: block;
@@ -845,7 +846,7 @@ body {
 }
 .recent-boxes .recent-box p {
   line-height: 1.5em;
-  margin: auto auto 1em auto;
+  margin: auto;
 }
 
 .page-content {
@@ -906,7 +907,7 @@ body {
 }
 
 .about {
-  border: 1px solid #565656;
+  border: 1px solid #ddd;
   border-radius: 3px;
   padding: 1em;
   margin-bottom: 1.5em;
@@ -916,7 +917,6 @@ body {
   float: left;
   margin-right: 1em;
   margin-bottom: 0;
-  border: 1px solid #565656;
 }
 
 .hero-boxes h2 {
