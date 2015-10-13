@@ -22,7 +22,7 @@ title: Projects
 #### [The Accessible Icon Project](http://www.accessibleicon.org/)
 
 * Description: A new non-profit project aiming to replace the existing handicapped icon with a better one.
-* My role: Developer first website for the project and then with designer [Tim Ferguson Sauder](http://www.asmallpercent.com/) to update the site with new graphics.
+* My role: Developed first website for the project and then with designer [Tim Ferguson Sauder](http://www.asmallpercent.com/) to update the site with new graphics.
 
 #### [The New England Conference for the Teaching of Foreign Languages (NECTFL)](http://www.nectfl.org/)
 

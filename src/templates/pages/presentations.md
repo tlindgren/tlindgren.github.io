@@ -13,9 +13,9 @@ title: Presentations
 * Pre-conference seminar presentation, “[Leveraging Mobile Technologies on Our Campuses and Beyond](http://www.educause.edu/NC11/Program/SEM03A),” NERCOMP (New England Regional Computer Program) 2011 Annual Conference, Providence, RI. March 28, 2011.
 * With Joe Nugent, “‘Walking Ulysses: Joyce’s Dublin Today’: A Mobile Learning Project from BC,” Mobile Learning in Higher Education (Northeast Computing Program SIG), Sept. 20, 2010. College of the Holy Cross, Worcester, MA
 * “[Building Capacity Through Good Usability: Lessons from Instructional Design](http://boston2008.drupalcon.org/session/building-capacity-through-good-usability-lessons-instructional-design.html).” [Drupalcon Boston 2008](http://boston2008.drupalcon.org/). Boston, Massachusetts. March 3–6, 2008.
-* “Drupal as an Instructional Design Tool.” New Media Consortium Summer Conference. Cleveland OH. June 7–10.
-* “Using Drupal to Create Virtual Classroom Communities.” Co-facilitator of pre-conference workshop. Computers and Writing 2005. Palo Alto, CA. June 2005.
 * “MEMEO: A Web-Based Innovative Tool to Create Multimedia Course Content. New England Faculty Development Consortium (NEFDC) Fall Conference.” Nov. 9, 2007.
+* “Drupal as an Instructional Design Tool.” New Media Consortium Summer Conference. Cleveland OH. June 7–10, 2006.
+* “Using Drupal to Create Virtual Classroom Communities.” Co-facilitator of pre-conference workshop. Computers and Writing 2005. Palo Alto, CA. June 2005.
 * “Integrating WebCT and Open Source Social Software in a Composition Course” (poster session). The Fifteenth International Conference on College Teaching and Learning. Jacksonville, FL. March 2004.
 
 ### Place, Community, and Technology
