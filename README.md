@@ -1,5 +1,5 @@
 # GitHub Repositories for Tim Lindgren 
-Source files for http://www.timlindgren.com.
+Build files for http://www.timlindgren.com. Source can be found in the [gh-pages branch](https://github.com/tlindgren/tlindgren.github.io/tree/gh-pages)
 
 This site was created using:
 * [Assemble.io](http://assemble.io/)
