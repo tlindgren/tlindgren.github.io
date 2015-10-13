@@ -846,7 +846,7 @@ body {
 }
 .recent-boxes .recent-box p {
   line-height: 1.5em;
-  margin: auto;
+  margin: auto auto 1em auto;
 }
 
 .page-content {
@@ -907,7 +907,7 @@ body {
 }
 
 .about {
-  border: 1px solid #ddd;
+  border: 1px solid #565656;
   border-radius: 3px;
   padding: 1em;
   margin-bottom: 1.5em;
@@ -917,6 +917,7 @@ body {
   float: left;
   margin-right: 1em;
   margin-bottom: 0;
+  border: 1px solid #565656;
 }
 
 .hero-boxes h2 {
